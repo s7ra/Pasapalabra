@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pasapalabra Rosco</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="rosco-container">
+    <div id="rosco"></div>
+    <div class="center-box">
+      <div id="timer">⏱️ 120</div>
+      <div id="letter-box">A</div>
+      <p id="question">Pregunta...</p>
+      <input id="answer" placeholder="Tu respuesta" autocomplete="off" />
+      <div class="buttons">
+        <button onclick="checkAnswer()">Responder</button>
+        <button onclick="pass()">Pasar</button>
+      </div>
+      <div id="score">
+        ✅ <span id="correct">0</span> | ❌ <span id="wrong">0</span>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
