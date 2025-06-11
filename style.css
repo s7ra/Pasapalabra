@@ -12,6 +12,7 @@ body {
   align-items: center;
   height: 100vh;
   overflow-y: hidden;
+  overflow-x: hidden;
 }
 .rosco-container {
   position: absolute;
